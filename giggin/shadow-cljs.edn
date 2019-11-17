@@ -13,7 +13,8 @@
 
         :modules
         {:main
-         {:entries [giggin.core]}}
+         {:entries [giggin.core]
+          :init-fn giggin.core/main}}
 
         :devtools
         {:after-load  giggin.core/main
