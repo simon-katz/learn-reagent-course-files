@@ -5,5 +5,8 @@
 ;;;; cljs dev stuff
 
 (comment
+
   ;; To re-render after evaluating forms and without saving files:
-  (giggin.core/main))
+  (giggin.core/main)
+
+  giggin.state/orders)
